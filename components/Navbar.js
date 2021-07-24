@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div className={styles.logoSide}>
                     <Link href="/">
                         <a className={styles.logo}>
-                            Hello<span className={styles.logoP}>Career</span>
+                            Website<span className={styles.logoP}>Name</span>
                         </a>
                     </Link>
                 </div>
