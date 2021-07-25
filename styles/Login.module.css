@@ -1,6 +1,13 @@
+.loginPart {
+    margin: 40px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
 .group {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 0;
     /* display: flex; */
 }
 
@@ -15,8 +22,31 @@
 }
 
 .rightSide {
-    margin-top: auto;
-    margin-bottom: auto;
     background-color: #181818;
     text-align: center;
+    margin-right:auto;
+    width:75%;
+}
+
+.form {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.leftSide {
+    margin-left: auto;
+}
+
+.btnLogin {
+    color: #fff;
+    background-color: #e05100;
+    border: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.logTitle {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255);
 }
