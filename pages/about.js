@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Image from 'next/image'
 import styles from '../styles/About.module.css'
+// import teamPhoto from 
+// import studentsPhoto from 
+// import productivityPhoto from 
 
 const About = () => {
     return (
@@ -26,7 +30,7 @@ const About = () => {
                 </div>
 
                 <div className={styles.whoareweimg}>
-                    <img src="../images/template.jpeg" alt="group photo of our team"/>
+                    <Image src="/images/template.jpeg" alt="group photo of our team" width={800} height={500}/>
                 </div>
             </section>
 
@@ -42,7 +46,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles.studentsimg}>
-                    <img src="../images/students.png" alt="students"/>
+                    <Image src="/images/students.png" alt="students" width={1000} height={500}/>
                 </div>
 
 
@@ -68,7 +72,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles.productivity}>
-                    <img src="../images/productivity.png" alt="idk"/>
+                    <Image src="/images/productivity.png" alt="idk" width={800} height={500}/>
                 </div>
 
             </section>
