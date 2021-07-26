@@ -119,3 +119,7 @@
     flex-direction: column;
   }
 }
+
+.sampleText {
+  color: #fff;
+}

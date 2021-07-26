@@ -9,6 +9,7 @@ import styles from '../styles/About.module.css'
 const About = () => {
     return (
         <div>
+            <Navbar />
             <section>
                 <div className={styles.abus}>
                     <h1>About Us</h1>
@@ -24,13 +25,13 @@ const About = () => {
                             confused. We have over 300 job profiles listed out for you to make the right choice for yourself.
                             All of these career options have gone through thorough research and by the end of this journey you
                             will learn about the top universities that offer these courses in India and abroad, the maximum and
-                            minimum income and mainly-<br/>your passion!</p>
+                            minimum income and mainly-<br />your passion!</p>
                     </div>
 
                 </div>
 
                 <div className={styles.whoareweimg}>
-                    <Image src="/images/template.jpeg" alt="group photo of our team" width={800} height={500}/>
+                    <Image src="/images/template.jpeg" alt="group photo of our team" width={800} height={500} />
                 </div>
             </section>
 
@@ -46,7 +47,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles.studentsimg}>
-                    <Image src="/images/students.png" alt="students" width={1000} height={500}/>
+                    <Image src="/images/students.png" alt="students" width={1000} height={500} />
                 </div>
 
 
@@ -72,7 +73,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles.productivity}>
-                    <Image src="/images/productivity.png" alt="idk" width={800} height={500}/>
+                    <Image src="/images/productivity.png" alt="idk" width={800} height={500} />
                 </div>
 
             </section>
